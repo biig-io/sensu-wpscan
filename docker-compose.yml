@@ -1,0 +1,8 @@
+version: '2'
+services:
+  wp_scanner:
+    build: ./docker
+    restart: always
+    volumes:
+      - ./sensu_config:/etc/sensu
+

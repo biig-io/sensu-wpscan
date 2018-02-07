@@ -1,0 +1,8 @@
+{
+  "client": {
+    "subscriptions": [
+	"wpscan"
+    ],
+    "name": "testWPScan"
+  }
+}

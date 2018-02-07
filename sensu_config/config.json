@@ -1,0 +1,19 @@
+{
+  "transport": {
+    "reconnect_on_error": true,
+    "name": "rabbitmq"
+  },
+  "rabbitmq": [
+    {
+      "host": "sensu-metrics.host",
+      "port": 5671,
+      "vhost": "/sensu",
+      "user": "sensu",
+      "password": "Yourexamplemdp",
+      "ssl": {
+        "cert_chain_file": "/etc/sensu/ssl/cert.pem",
+        "private_key_file": "/etc/sensu/ssl/key.pem"
+      }
+    }
+  ]
+}
