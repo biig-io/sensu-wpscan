@@ -3,7 +3,7 @@ Docker ready to use for [sensu-wordpress plugin](https://github.com/sensu-plugin
 
 
 ## Fill the sensu_config with your sensu server informations
-Edit `sensu_config/conf/client.json`.
+Edit `sensu_config/conf.d/client.json`.
 
 ⚠️ Dont forget to set your `sensu_config/config.json` with your config transport (Host, Password, SSL if need).
 
